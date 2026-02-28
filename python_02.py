@@ -21,7 +21,7 @@ class Car:
 
 
 #Objects and Method Calls
-car1=Car("Toyota", "Corolla", 2020)
+car1=Car("BMW", "X5", 2021)
 car2=Car("Tesla", "Model 3", 2023)
 
 car1.accelerate(70)
@@ -166,9 +166,9 @@ class Employee:
 
 
 #Objects and Operations
-e1=Employee("Sunjida", "E01", "IT", 25000)
-e2=Employee("Sultana", "E02", "HR", 30000)
-e3=Employee("Munira", "E03", "Finance", 20000)
+e1=Employee("Sunjida", "E01", "Manager", 25000)
+e2=Employee("Sultana", "E02", "Engineer", 30000)
+e3=Employee("Munira", "E03", "Accounts", 20000)
 
 e1.give_raise(7)
 e2.give_raise(8)
